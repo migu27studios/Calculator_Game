@@ -5,16 +5,31 @@ using System.Collections;
 public class PlusButton : MonoBehaviour {
 
     public ValueOneInput valueOneInput;
-    float additionTest = 2f;
-
-    float Addition (float valueOne)
+    public ValueTwoInput valueTwoInput;
+    
+    float Addition ()
     {
-        float additionFinal = valueOne + additionTest;
-        return additionFinal;
+        return 0;
     }
+    
 
-    public void ButtonClick ()
+
+   // float Addition (float valueOne)
+    //{
+    //    float additionFinal = 0;
+
+    //    additionFinal = valueOne + addition;
+
+      //  return additionFinal;
+ //   } 
+
+  //  public void ButtonClick ()
+   // {
+     //   print(Addition(valueOneInput.InputOneToFloat()) + " Is your addition.");
+   // }
+
+    public void ButtonClick()
     {
-        print(Addition(valueOneInput.InputOneToFloat()));
+        print(Addition());
     }
 }
